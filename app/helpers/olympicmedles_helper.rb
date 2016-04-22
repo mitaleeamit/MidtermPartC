@@ -1,0 +1,2 @@
+module OlympicmedlesHelper
+end
