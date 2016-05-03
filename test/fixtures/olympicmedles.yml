@@ -5,11 +5,11 @@ one:
   event: MyText
   country: MyString
   medal_type: MyString
-  eventdate: 2016-04-22
+  eventdate: 2016-05-03
 
 two:
   athlete_name: MyString
   event: MyText
   country: MyString
   medal_type: MyString
-  eventdate: 2016-04-22
+  eventdate: 2016-05-03

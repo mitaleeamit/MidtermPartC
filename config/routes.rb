@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :olympicmedles
   get 'showdatetime/display'
 
   resources :olympicmedles
@@ -6,7 +7,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  #root 'olympicmedles#index'
+  root 'olympicmedles#index'
   root 'showdatetime#display'
   get "olympicmedles", to: "olympicmedles#index"
 
